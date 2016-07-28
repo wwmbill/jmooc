@@ -1,4 +1,4 @@
 From tomcat
 
+COPY .   /usr/local/tomcat/webapps/
 
-/usr/local/tomcat/webapps/
