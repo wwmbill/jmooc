@@ -1,3 +1,14 @@
 From tomcat:jre8-alpine
 
 COPY .   /usr/local/tomcat/webapps/
+
+
+
+https://github.com/wwmbill/Dockerfile-javaweb   Dockerfile内容中增加
+
+ADD ./javaweb01.war  /data/tomcat/webapps   以便通过javaweb环境镜像生成应用后直接部署javaweb01
+ 
+
+
+
+
